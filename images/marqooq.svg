@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="400" height="300">
+  <defs>
+    <radialGradient id="bgM" cx="50%" cy="40%" r="70%">
+      <stop offset="0%" stop-color="#C8956A"/>
+      <stop offset="100%" stop-color="#7A4A1F"/>
+    </radialGradient>
+    <radialGradient id="bowlM" cx="50%" cy="50%" r="60%">
+      <stop offset="0%" stop-color="#4A2818"/>
+      <stop offset="100%" stop-color="#1F0F08"/>
+    </radialGradient>
+    <radialGradient id="brothM" cx="50%" cy="40%" r="60%">
+      <stop offset="0%" stop-color="#C84B1A"/>
+      <stop offset="60%" stop-color="#A03812"/>
+      <stop offset="100%" stop-color="#6B2410"/>
+    </radialGradient>
+  </defs>
+  
+  <rect width="400" height="300" fill="url(#bgM)"/>
+  
+  <!-- ظل الوعاء -->
+  <ellipse cx="200" cy="245" rx="160" ry="22" fill="#000" opacity="0.3"/>
+  
+  <!-- الوعاء -->
+  <ellipse cx="200" cy="180" rx="165" ry="68" fill="url(#bowlM)"/>
+  <ellipse cx="200" cy="170" rx="160" ry="58" fill="#2D1810"/>
+  
+  <!-- المرق -->
+  <ellipse cx="200" cy="165" rx="153" ry="50" fill="url(#brothM)"/>
+  
+  <!-- قطع العجين الرقيقة -->
+  <g>
+    <path d="M 100 150 Q 130 145 155 155 Q 145 170 115 168 Z" fill="#F5DEB3" opacity="0.95"/>
+    <path d="M 100 150 Q 130 145 155 155 Q 145 170 115 168 Z" fill="none" stroke="#D4A574" stroke-width="0.5"/>
+    
+    <path d="M 160 160 Q 195 155 220 165 Q 210 178 175 178 Z" fill="#E8C896" opacity="0.95"/>
+    
+    <path d="M 225 155 Q 260 150 285 160 Q 275 175 240 175 Z" fill="#F5DEB3" opacity="0.95"/>
+    
+    <path d="M 130 175 Q 165 170 195 180 Q 180 190 145 188 Z" fill="#E8C896" opacity="0.9"/>
+    
+    <path d="M 210 180 Q 245 175 275 185 Q 260 195 225 193 Z" fill="#F5DEB3" opacity="0.9"/>
+  </g>
+  
+  <!-- قطع لحم -->
+  <ellipse cx="180" cy="160" rx="18" ry="10" fill="#5C2C0C"/>
+  <ellipse cx="178" cy="158" rx="14" ry="7" fill="#8B4513" opacity="0.8"/>
+  
+  <ellipse cx="245" cy="170" rx="16" ry="9" fill="#5C2C0C"/>
+  <ellipse cx="243" cy="168" rx="12" ry="6" fill="#8B4513" opacity="0.8"/>
+  
+  <!-- خضار (جزر/كوسا) -->
+  <g>
+    <ellipse cx="140" cy="165" rx="6" ry="4" fill="#FF8C42" transform="rotate(20 140 165)"/>
+    <ellipse cx="220" cy="155" rx="5" ry="4" fill="#FF8C42" transform="rotate(-15 220 155)"/>
+    <ellipse cx="270" cy="170" rx="6" ry="4" fill="#6B8E23" transform="rotate(30 270 170)"/>
+    <ellipse cx="160" cy="185" rx="5" ry="3" fill="#6B8E23" transform="rotate(-25 160 185)"/>
+  </g>
+  
+  <!-- طماطم -->
+  <circle cx="200" cy="155" r="5" fill="#C84B1A"/>
+  <circle cx="200" cy="153" r="3" fill="#FF6B35" opacity="0.7"/>
+  
+  <!-- بقدونس مفروم -->
+  <g fill="#2D5016">
+    <circle cx="195" cy="145" r="2"/>
+    <circle cx="210" cy="148" r="1.5"/>
+    <circle cx="190" cy="150" r="1.5"/>
+  </g>
+  
+  <!-- بخار -->
+  <g fill="#FFF" opacity="0.45">
+    <ellipse cx="170" cy="105" rx="9" ry="18"/>
+    <ellipse cx="200" cy="80" rx="11" ry="25"/>
+    <ellipse cx="230" cy="105" rx="9" ry="18"/>
+  </g>
+  
+  <!-- لمعة الزيت -->
+  <ellipse cx="170" cy="155" rx="35" ry="6" fill="#FFD700" opacity="0.3"/>
+  <ellipse cx="245" cy="160" rx="25" ry="4" fill="#FFD700" opacity="0.25"/>
+</svg>
