@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="400" height="300">
+  <defs>
+    <radialGradient id="bgS" cx="50%" cy="40%" r="70%">
+      <stop offset="0%" stop-color="#D4A574"/>
+      <stop offset="100%" stop-color="#8B5A2B"/>
+    </radialGradient>
+    <radialGradient id="plateS" cx="50%" cy="50%" r="60%">
+      <stop offset="0%" stop-color="#FBF6EC"/>
+      <stop offset="100%" stop-color="#C9A876"/>
+    </radialGradient>
+    <radialGradient id="pancakeS" cx="50%" cy="40%" r="60%">
+      <stop offset="0%" stop-color="#F5DEB3"/>
+      <stop offset="60%" stop-color="#D4A574"/>
+      <stop offset="100%" stop-color="#8B6B3D"/>
+    </radialGradient>
+    <radialGradient id="honeyS" cx="50%" cy="50%" r="60%">
+      <stop offset="0%" stop-color="#FFD700"/>
+      <stop offset="100%" stop-color="#B8860B"/>
+    </radialGradient>
+  </defs>
+  
+  <rect width="400" height="300" fill="url(#bgS)"/>
+  
+  <!-- ظل -->
+  <ellipse cx="200" cy="245" rx="155" ry="18" fill="#000" opacity="0.25"/>
+  
+  <!-- الصحن -->
+  <ellipse cx="200" cy="180" rx="160" ry="62" fill="url(#plateS)"/>
+  <ellipse cx="200" cy="175" rx="150" ry="55" fill="#FBF6EC"/>
+  <ellipse cx="200" cy="172" rx="140" ry="50" fill="#F5E6CC"/>
+  
+  <!-- زخرفة الصحن -->
+  <g stroke="#B8860B" stroke-width="1" fill="none" opacity="0.5">
+    <ellipse cx="200" cy="172" rx="135" ry="48"/>
+  </g>
+  
+  <!-- مصابيب مكدسة (3 طبقات) -->
+  <!-- الطبقة السفلى -->
+  <ellipse cx="200" cy="180" rx="80" ry="14" fill="#8B6B3D"/>
+  <ellipse cx="200" cy="178" rx="78" ry="12" fill="#D4A574"/>
+  
+  <!-- الطبقة الوسطى -->
+  <ellipse cx="200" cy="167" rx="78" ry="13" fill="#A0825A"/>
+  <ellipse cx="200" cy="165" rx="76" ry="11" fill="#E8C896"/>
+  
+  <!-- الطبقة العليا -->
+  <ellipse cx="200" cy="152" rx="76" ry="12" fill="url(#pancakeS)"/>
+  <ellipse cx="200" cy="150" rx="74" ry="10" fill="#F5DEB3"/>
+  
+  <!-- تفاصيل المصابيب (نقاط الذهبية) -->
+  <g fill="#A0825A" opacity="0.7">
+    <circle cx="160" cy="148" r="2"/>
+    <circle cx="175" cy="153" r="1.5"/>
+    <circle cx="190" cy="149" r="2"/>
+    <circle cx="210" cy="151" r="1.5"/>
+    <circle cx="225" cy="148" r="2"/>
+    <circle cx="240" cy="152" r="1.5"/>
+    <circle cx="170" cy="166" r="2"/>
+    <circle cx="200" cy="164" r="1.5"/>
+    <circle cx="230" cy="167" r="2"/>
+  </g>
+  
+  <!-- العسل المسكوب على الكومة -->
+  <g fill="url(#honeyS)" opacity="0.92">
+    <!-- بركة العسل في القمة -->
+    <ellipse cx="200" cy="148" rx="50" ry="8"/>
+    <!-- العسل المتساقط من الجانبين -->
+    <path d="M 155 148 Q 150 160 148 178 Q 150 185 155 180 Q 158 165 162 152 Z"/>
+    <path d="M 245 148 Q 252 160 254 178 Q 252 185 247 180 Q 244 165 240 152 Z"/>
+    <!-- قطرة عسل -->
+    <ellipse cx="148" cy="195" rx="5" ry="7"/>
+    <ellipse cx="252" cy="195" rx="5" ry="7"/>
+  </g>
+  
+  <!-- لمعة العسل -->
+  <ellipse cx="195" cy="146" rx="25" ry="2.5" fill="#FFFACD" opacity="0.8"/>
+  <ellipse cx="220" cy="148" rx="15" ry="2" fill="#FFFACD" opacity="0.7"/>
+  
+  <!-- قطعة سمن في القمة -->
+  <ellipse cx="200" cy="143" rx="10" ry="5" fill="#FFFACD"/>
+  <ellipse cx="200" cy="142" rx="7" ry="3" fill="#FFF" opacity="0.8"/>
+  
+  <!-- حبات سمسم للزينة -->
+  <g fill="#F5E6CC">
+    <ellipse cx="180" cy="146" rx="1.5" ry="0.8"/>
+    <ellipse cx="215" cy="146" rx="1.5" ry="0.8"/>
+    <ellipse cx="190" cy="150" rx="1.5" ry="0.8"/>
+    <ellipse cx="225" cy="150" rx="1.5" ry="0.8"/>
+  </g>
+  
+  <!-- ملعقة سمن جانبية -->
+  <ellipse cx="290" cy="190" rx="15" ry="8" fill="#FFD700" opacity="0.6"/>
+  <ellipse cx="290" cy="188" rx="11" ry="5" fill="#FFFACD" opacity="0.8"/>
+</svg>
