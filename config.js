@@ -5,7 +5,7 @@
 const CONFIG = {
   // معلومات الاتصال بـ Airtable
   AIRTABLE: {
-    TOKEN: 'path6CtKB1fGui0Jf',
+    TOKEN: 'pat6CtKB1fGui0Jf.9ca039922ed002aa27e929c79b11fb871a0aa970e1d61d131014bac235c8e39e',
     BASE_ID: 'appu8Nu9gFjK0TeR2',
     TABLE_NAME: 'Orders'
   },
