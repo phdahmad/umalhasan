@@ -7,7 +7,7 @@ const CONFIG = {
   AIRTABLE: {
     TOKEN: 'path6CtKB1fGui0Jf',
     BASE_ID: 'appu8Nu9gFjK0TeR2',
-    TABLE_NAME: 'Orders'
+    TABLE_NAME: 'Talabat'
   },
 
   // كلمة سر لوحة المسؤول
